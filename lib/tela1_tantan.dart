@@ -11,7 +11,6 @@ class Tela1Tandan extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Consumer<VisaoUsuario>(builder: (context, _, __) {
-      VisaoUsuario el = Provider.of<VisaoUsuario>(context, listen: false);
       return Scaffold(
         body: Center(
           child: Column(
@@ -36,7 +35,7 @@ class Tela1Tandan extends StatelessWidget {
     // aqui usamos pushReplacement para o batao "back" não retornar para essa pagina...
     Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => Tela2Home()),
+        MaterialPageRoute(builder: (context) => const Tela2Home()),
     );
   }
 }
