@@ -46,7 +46,7 @@ class Tela2Home extends StatelessWidget {
           child: SizedBox(
             width: 400,
             height: double.infinity,
-            child: Center(child:Text("..."))
+            child: Center(child:Text("...HAHAHAHA"))
           ),
         ),
       );
