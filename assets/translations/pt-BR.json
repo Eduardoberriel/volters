@@ -1,7 +1,8 @@
 {
+  "ola" : "Olá",
   "tandan" : "Você no controle",
   "tandan_entrar" : "ENTRAR",
-  "saldo" : "Saldo em Conta",
+  "saldo" : "Saldo em conta",
   "simulacao" : "Simulação",
   "historico" : "Histórico",
   "assine" : "ASSINE",
@@ -10,11 +11,15 @@
   "simule" : "SIMULE",
   "assinatura" : "ASSINATURA",
   "saiba_mais" : "Saiba mais",
-  "venha_assinar" : "Economize na sua conta de luz sem investimentos, sem obras e sem riscos",
+  "venha_assinar" : "Economize na sua conta de luz sem investimentos, sem obras e sem riscos.",
+  "investimento" : "INVESTIMENTO",
   "minhas_assinaturas" : "MINHAS \nASSINATURAS",
-  "venha_investir" : "Invista em usinas de energias renováveis",
+  "venha_investir" : "Invista em usinas de energias renováveis através de fundos de investimento.",
   "meus_investimentos" : "MEUS \nINVESTIMENTOS",
+  "geradores" : "GERADORES",
   "meus_geradores" : "MEUS \nGERADORES",
-  "venha_gerar" : "Seja remunerado pela sua geração de energia renovável",
-  "noticias" : "NOTÍCIAS"
+  "venha_gerar" : "Seja remunerado pela sua geração de energia renovável.",
+  "noticias" : "NOTÍCIAS",
+  "conteudo" : "CONTEÚDO",
+  "mostrar_mais" : "Mostrar mais"
 }

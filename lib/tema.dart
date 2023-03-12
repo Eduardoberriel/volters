@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class TemaVolters {
 
@@ -33,7 +32,7 @@ class TemaVolters {
     onSurface: Color(0xFFE5E2DA),
 
     surfaceVariant: Color(0xFF46483B),
-    onSurfaceVariant: Color(0xFFC7C7B7),
+    onSurfaceVariant: Color(0xFFE5E2DA),
 
     outline: Color(0xFF919283),
 
@@ -42,21 +41,9 @@ class TemaVolters {
     inversePrimary: Color(0xFF576500),
     shadow: Color(0xFF000000),
     surfaceTint: Color(0xFF247979),
-    //surfaceTint: Color(0xFF2CC5C5),
     outlineVariant: Color(0xFF46483B),
     scrim: Color(0xFF000000),
 
-  );
-
-  static TextTheme tipografia =
-  GoogleFonts.montserratTextTheme(Typography.whiteMountainView).copyWith(
-    labelSmall:     GoogleFonts.montserrat(fontWeight: FontWeight.w200,height: 1.1),
-    labelLarge:     GoogleFonts.montserrat(fontWeight: FontWeight.w800,height: 1.1),
-    bodyMedium:     GoogleFonts.montserrat(fontWeight: FontWeight.w300,fontSize: 16,height: 1.3),
-    headlineSmall:  GoogleFonts.montserrat(fontWeight: FontWeight.w800,fontSize: 20),
-    headlineMedium: GoogleFonts.montserrat(fontWeight: FontWeight.w800,fontSize: 22),
-    headlineLarge:  GoogleFonts.montserrat(fontWeight: FontWeight.w300,fontSize: 26,height: 1.1),
-    displaySmall:   GoogleFonts.montserrat(fontWeight: FontWeight.w800),
   );
 
   static CardTheme cartao = CardTheme(
@@ -64,13 +51,17 @@ class TemaVolters {
     shape: RoundedRectangleBorder(
       borderRadius: BorderRadius.circular(20),
     ),
+
   );
 
   static ThemeData tema = ThemeData(
     useMaterial3: true,
     colorScheme: cores,
-    textTheme: tipografia,
     cardTheme: cartao,
+    fontFamily: 'Montserrat',
+    textTheme: const TextTheme(
+      labelLarge: TextStyle(fontWeight: FontWeight.w800),
+    ),
   );
 
   static BoxDecoration bordaVolters = BoxDecoration(

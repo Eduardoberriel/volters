@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_ui_auth/firebase_ui_auth.dart';
 import 'package:firebase_ui_oauth_google/firebase_ui_oauth_google.dart';
-import 'package:provider/provider.dart';
 import 'package:volters/firebase_options.dart';
-import 'package:volters/tela1_tantan.dart';
+import 'package:volters/tela01_tantan.dart';
 import 'package:volters/tema.dart';
 import 'package:volters/visao_usuario.dart';
 
@@ -27,7 +27,7 @@ void main() async {
       ],
       child: EasyLocalization(
         supportedLocales: const [Locale('pt', 'BR')],
-        path: 'translations',
+        path: 'assets/translations',
         fallbackLocale: const Locale('pt', 'BR'),
         child: const VoltersApp(),
       ),
@@ -47,9 +47,9 @@ class VoltersApp extends StatelessWidget {
       locale: context.locale,
       theme: TemaVolters.tema,
       debugShowCheckedModeBanner: false,
-      home: const Tela1Tandan(),
+      home: const Tela01Tandan(),
     );
   }
 }
 // Para atualizar os texto do EasyLocation, executar no terminal o comando:
-// flutter pub run easy_localization:generate -f keys -S assets/translations/  -O lib/ -o locale_keys.g.dart
+//       flutter pub run easy_localization:generate -f keys -S ./assets/translations/  -O lib/ -o locale_keys.g.dart

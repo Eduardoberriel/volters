@@ -70,8 +70,15 @@ flutter:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/translations/pt-BR.json
+    - assets/images/logo-volters.png
+    - assets/fonts/Montserrat-Light.ttf
+    - assets/fonts/Montserrat-ExtraBold.ttf
 
-  # An image asset can refer to one or more resolution-specific "variants", see
+
+
+    # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
   # For details regarding adding assets from package dependencies, see
@@ -96,3 +103,11 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Light.ttf
+        - asset: assets/fonts/Montserrat-ExtraBold.ttf
+          weight: 800
