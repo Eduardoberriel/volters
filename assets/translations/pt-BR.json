@@ -1,4 +1,20 @@
 {
   "tandan" : "Você no controle",
-  "carregando" : "Carregando..."
+  "tandan_entrar" : "ENTRAR",
+  "saldo" : "Saldo em Conta",
+  "simulacao" : "Simulação",
+  "historico" : "Histórico",
+  "assine" : "ASSINE",
+  "invista" : "INVISTA",
+  "gere" : "GERE",
+  "simule" : "SIMULE",
+  "assinatura" : "ASSINATURA",
+  "saiba_mais" : "Saiba mais",
+  "venha_assinar" : "Economize na sua conta de luz sem investimentos, sem obras e sem riscos",
+  "minhas_assinaturas" : "MINHAS \nASSINATURAS",
+  "venha_investir" : "Invista em usinas de energias renováveis",
+  "meus_investimentos" : "MEUS \nINVESTIMENTOS",
+  "meus_geradores" : "MEUS \nGERADORES",
+  "venha_gerar" : "Seja remunerado pela sua geração de energia renovável",
+  "noticias" : "NOTÍCIAS"
 }
